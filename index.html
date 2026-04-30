@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eye Follower - Fast Random</title>
@@ -15,12 +16,12 @@
         }
 
         .eye-container {
-            position: absolute;
-            top: 50%;
-            right: 10px;
-            transform: translateY(-50%);
+            position: fixed;
+            top: 20px;      
+            right: 10px;    
             width: 150px;
             height: 150px;
+            z-index: 9999;
             pointer-events: none;
         }
 
